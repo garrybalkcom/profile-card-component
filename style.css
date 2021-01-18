@@ -1,3 +1,35 @@
 html{
-    background:red;
+    font-size:100%;
+}
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background:hsl(185, 75%, 39%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.card{
+    width:400px;
+    height:400px;
+    background:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/bg-pattern-card.svg');
+    background-repeat:no-repeat;
+    background-size: contain;
+
+    border-radius:20px;
+}
+.image{
+    position:relative;
+    bottom:60px;
+    border-radius:50%;
+    border:4px solid white;
+}
+.image img{
+    border-radius:50%;
 }
